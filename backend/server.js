@@ -25,7 +25,7 @@ app.use(function (req, res, next) {
 
 const db = require("./app/models");
 db.mongoose
-  .connect(`mongodb+srv://Guimoute:guillaume@cluster0.lqatc.mongodb.net/facebouk?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://Evorio:5211cfc@cluster0.5ldbk.mongodb.net/dreams?retryWrites=true&w=majority`, {
    
     useNewUrlParser: true,
     useUnifiedTopology: true

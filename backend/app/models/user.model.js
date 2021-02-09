@@ -6,6 +6,14 @@ const User = mongoose.model(
     username: String,
     email: String,
     password: String,
+    nom: String,
+    prenom: String,
+    genre: String,
+    nationalite: String,
+    tel: String,
+    adresse: String,
+    codePostal: String,
+    pays: String,
   })
 );
 
