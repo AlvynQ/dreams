@@ -1,0 +1,23 @@
+.container{
+    /* background-image: url(../../img/plop.png); */
+    background-color: #ffffff;
+    background-size: 100vw 100vh;
+    height: 100vh; 
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+} 
+
+.p{
+    font-size: 12px;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-top: 23px;
+    margin-right: 20px;
+
+}
