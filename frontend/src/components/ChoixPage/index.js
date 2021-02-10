@@ -8,7 +8,6 @@ const ChoixPage = () => {
              <a className={styles.logo} href='./homePage'></a>
             <Header/>
                     <p className={styles.p}>Destination Albanie</p>
-                        <a href='./ChoixPage'> </a>
                     <div className={styles.tof}>
                         <div className={styles.minitof}>
                            <figure></figure>
@@ -31,7 +30,7 @@ const ChoixPage = () => {
                                          chacals, des ours, des lynx et des loups lors de votre séjour.</p>
 
                         </div>
-                    </div>
+                </div>
         </div>
         
     )

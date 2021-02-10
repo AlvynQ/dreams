@@ -54,12 +54,12 @@ figure:nth-child(3){
 }
 .text
 {
-
 position: absolute;
 top: 63%;
 right: 7%;
 width: 45%;
 }
+
 .titre
 {
     font-size: 20px;
