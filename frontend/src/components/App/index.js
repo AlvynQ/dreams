@@ -5,6 +5,7 @@ import Inscription from '../InscriptionPage';
 import Connexion from '../ConnexionPage';
 import Profil from '../ProfilPage';
 import HomePage from '../HomePage';
+import ChoixPage from '../ChoixPage';
 //blabla
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Profil" component={Profil} />
         <Route path="/HomePage" component={HomePage} />
         <Route path="/WelcomePage" component={WelcomePage} />
+        <Route path="/ChoixPage" component={ChoixPage} />
 
         </Switch>  
       </Router>
