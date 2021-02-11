@@ -3,7 +3,6 @@ import styles from "./profil.module.css";
 import Header from '../Header';
 import fetchprof from "./profile";
 
-
 const ProfilPage = () => {
 useEffect(()=>{fetchprof();})
     return(
@@ -15,6 +14,8 @@ useEffect(()=>{fetchprof();})
                              <p className={styles.titre}> Email </p>
                                  <span id="email"></span>
                 </div>
+       
+
             </div>
     )
 }

@@ -11,8 +11,8 @@ const header = () => {
     var elco = document.getElementById("btn_co");
     elco.addEventListener("click", cobtn);
 
-    // var elCh = document.getElementById("btn_Ch");
-    // elco.addEventListener("click", chbtn);
+    var elde = document.getElementById("btn_de");
+    elco.addEventListener("click", debtn);
 
     function homebtn() {
         document.location.href = "/HomePage"
@@ -29,9 +29,9 @@ const header = () => {
     function cobtn() {
         document.location.href = "/WelcomePage"
     }
-    // function Chbtn() {
-        // document.location.href = "/ChoixPage"
-    // }
+    function debtn() {
+        document.location.href = "/DetailPage"
+    }
 }
 
 export default header;

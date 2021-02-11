@@ -55,7 +55,7 @@ const ChoixPage = () => {
                         <div><p>336</p></div>
                         <div><p>336</p></div>
                     </section>
-                    <a className={styles.suite} href='./DetailPage'>Detail</a>
+                    <a className={styles.suite} href='./DetailPage'>Détail par ici</a>
         </div>
         
     )

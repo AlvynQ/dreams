@@ -9,3 +9,52 @@
     width: 100px;
     background-size: contain;
 }
+.titre{
+    text-align: center;
+    font-size: 60px;
+   
+}
+.picture
+{
+background-color: saddlebrown;
+height: 400px;
+width: 400px;
+margin: 0 auto;
+}
+
+.miniatures
+{
+    background-color: red;
+    position: absolute;
+    /* top: 252px; */
+    left: 440px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+
+.miniatures:nth-child(1)
+{
+    background-color: slateblue;
+    top: 285px;
+   
+}
+.miniatures:nth-child(2)
+{
+    background-color: indigo;
+    top: 395px;
+}
+.miniatures:nth-child(3)
+{
+    background-color: greenyellow;
+    top: 505px;
+}
+
+p
+{
+    width: 50%;
+    margin: 10px auto;
+    color: black;
+    font-size: 16px;
+}
