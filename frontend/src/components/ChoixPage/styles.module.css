@@ -1,4 +1,5 @@
-.menu{
+.menu
+{
     position: relative;
     
 }
@@ -35,7 +36,8 @@ top: 300px;
 left: 630px;
 position: absolute;
 }
-figure{
+figure
+{
   justify-content: space-around;
   margin: 0 10px 0;
     align-items: center;
@@ -54,10 +56,11 @@ figure:nth-child(3){
 }
 .text
 {
-position: absolute;
-top: 63%;
-right: 7%;
-width: 45%;
+    position: absolute;
+    top:24%;
+    right: 7%;
+    width: 45%;
+
 }
 
 .titre
@@ -67,6 +70,99 @@ width: 45%;
 }
 .para
 {
-color: black;
-font-size: 16px;
+    color: black;
+    font-size: 16px;
+}
+.picto
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0px 20px;
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 100%;
+}
+.picto article
+{
+    display: flex;
+}
+.picto article p
+{
+    margin-top: 12px;
+    color: black;
+    font-size: 14px;
+}
+.mini
+{
+    height: 50px;
+    width: 50px;
+}
+.mini:nth-child(1)
+{
+    background-color: green;
+}
+.mini:nth-child(2)
+{
+    background-color: gold;
+}
+.mini:nth-child(3)
+{
+    background-color: lightcoral;
+}
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightseagreen;
+}
+section div
+{
+    position: relative;
+    margin: 30px 100px;
+    height: 500px;
+    width: 500px;
+}
+section div:nth-child(1)
+{
+    background-color: lightslategray;
+    
+}
+section div:nth-child(2)
+{
+    background-color: burlywood;
+    
+}
+section div:nth-child(3)
+{
+    background-color: peru;
+    
+}
+section div:nth-child(4)
+{
+    background-color: rgb(129, 184, 84);
+    
+}
+section div p
+{
+    padding: 10px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: -16px;
+    right: 0px;
+    color:black;
+    font-size: 14px;
+
+}
+.suite
+{
+    display: block;
+    width: 30%;
+    color: black;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: chartreuse;
+    text-align: center;
 }

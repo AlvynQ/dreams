@@ -4,6 +4,7 @@ import Header from '../Header';
 import fetchhom from './homePage';
 
 
+
 const HomePage = () => {
     useEffect(()=>{ fetchhom ()})
     return(

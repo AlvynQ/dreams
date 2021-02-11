@@ -6,6 +6,7 @@ import Connexion from '../ConnexionPage';
 import Profil from '../ProfilPage';
 import HomePage from '../HomePage';
 import ChoixPage from '../ChoixPage';
+import DetailPage from '../DetailPage';
 //blabla
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/HomePage" component={HomePage} />
         <Route path="/WelcomePage" component={WelcomePage} />
         <Route path="/ChoixPage" component={ChoixPage} />
+        <Route path="/DetailPage" component={DetailPage} />
 
         </Switch>  
       </Router>
