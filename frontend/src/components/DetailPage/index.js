@@ -19,6 +19,10 @@ const DetailPage = () => {
                  est réputée pour ses stations balnéaires, 
                  sa nature sauvage, ses richesses naturelles et culturelles
                   et ses sites archéologiques extrêmement bien conservés. </p>
+                  <section>
+                      <article><p>vhslbnvSB</p></article>
+                      <article><p>hjvqsbkjs</p></article>
+                  </section>
         </div>
         
     )
