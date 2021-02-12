@@ -6,13 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import Header from '../Header';
 
 const Inscription = () => {                                                                                                             
 useEffect(()=>{fetchinsc(); fetchannul();})
     return(
+      <div>
+        <Header/>
             <div className={styles.container}>
-      
+
                 <div className={styles.image}> 
                   <form className={styles.form}> 
                   <Form.Label>Entrée votre Nom</Form.Label>
@@ -46,6 +48,7 @@ useEffect(()=>{fetchinsc(); fetchannul();})
                  </form> 
                  <p id="error"></p>
 
+            </div>
             </div>
         </div>
     )

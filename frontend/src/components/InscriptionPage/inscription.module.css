@@ -4,6 +4,7 @@ textarea:focus, input:focus{
     outline: none;
 }
 .container{
+    margin-top: 10px;
     width: 100vw;
     height: 100vh;
     display: flex;
