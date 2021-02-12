@@ -51,7 +51,7 @@ margin: 0 auto;
     top: 505px;
 }
 
-p
+.jbl
 {
     width: 50%;
     margin: 10px auto;
@@ -59,17 +59,17 @@ p
     font-size: 16px;
 
 }
-section{
+.desc{
 display: flex;
 }
-article{
+.art{
     height: 300px;
     width: 50%;
-    border-left: solid 1px black;
+
 }
-article p 
+.art .jbl
 {
     color: black;
     font-size: 14px;
-    border-bottom: solid 1px black;
+  
 }

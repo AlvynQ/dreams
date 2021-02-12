@@ -32,11 +32,11 @@
 .minitof
 {
 display: flex;
-top: 300px;
+top: 260px;
 left: 630px;
 position: absolute;
 }
-figure
+.photo
 {
   justify-content: space-around;
   margin: 0 10px 0;
@@ -45,21 +45,21 @@ figure
     width: 200px;
     
 }
-figure:nth-child(1){
+.photo:nth-child(1){
     background-color: blue;
 }
-figure:nth-child(2){
+.photo:nth-child(2){
     background-color: goldenrod;
 }
-figure:nth-child(3){
+.photo:nth-child(3){
     background-color: green;
 }
 .text
 {
     position: absolute;
-    top:24%;
-    right: 7%;
-    width: 45%;
+    top:21%;
+    right: -26%;
+    width: 75%;
 
 }
 
@@ -67,11 +67,14 @@ figure:nth-child(3){
 {
     font-size: 20px;
     color: black;
+    text-align: center;
+    margin-right: 550px;
 }
-.para
+.para 
 {
     color: black;
     font-size: 16px;
+    width: 50%;
 }
 .picto
 {
@@ -83,11 +86,11 @@ figure:nth-child(3){
     height: 200px;
     width: 100%;
 }
-.picto article
+.picto .chois
 {
     display: flex;
 }
-.picto article p
+.picto .chois .ju
 {
     margin-top: 12px;
     color: black;
@@ -97,6 +100,12 @@ figure:nth-child(3){
 {
     height: 50px;
     width: 50px;
+}
+.mini .ju
+{
+    margin-top: 12px;
+    color: black;
+    font-size: 14px;
 }
 .mini:nth-child(1)
 {
@@ -110,40 +119,40 @@ figure:nth-child(3){
 {
     background-color: lightcoral;
 }
-section
+.topo
 {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightseagreen;
+    background-color: rgb(10, 248, 236);
 }
-section div
+.topo .plop
 {
     position: relative;
     margin: 30px 100px;
     height: 500px;
     width: 500px;
 }
-section div:nth-child(1)
+.topo .plop:nth-child(1)
 {
-    background-color: lightslategray;
+    background-color: rgb(0, 0, 0);
     
 }
-section div:nth-child(2)
+.topo .plop:nth-child(2)
 {
     background-color: burlywood;
     
 }
-section div:nth-child(3)
+.topo .plop:nth-child(3)
 {
     background-color: peru;
     
 }
-section div:nth-child(4)
+.topo .plop:nth-child(4)
 {
     background-color: rgb(129, 184, 84);
     
 }
-section div p
+.topo .plop .ju
 {
     padding: 10px;
     background-color: red;
