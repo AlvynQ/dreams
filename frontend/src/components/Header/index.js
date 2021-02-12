@@ -9,7 +9,8 @@ const Header = () => {
             <ul className={styles.navbar}>
                 <button id="btn_home"><h1>retour</h1></button>
                 <li><button id="btn_de">voir</button></li>
-                <li><button id="btn_profil">inscription</button></li>
+                <li><button id="btn_ins">inscription</button></li>
+                <li><button id="btn_profil">inn</button></li>
                 {/* <li><button id="btn_deco">Déconnexion</button></li> si deja connecté*/}
                 <li><button id="btn_co">Connexion</button></li>
             </ul>

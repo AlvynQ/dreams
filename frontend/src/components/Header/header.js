@@ -5,6 +5,9 @@ const header = () => {
     var elprofil = document.getElementById("btn_profil");
     elprofil.addEventListener("click", profilbtn);
 
+    var elins = document.getElementById("btn_ins");
+    elins.addEventListener("click", insbtn);
+
     // var eldeco = document.getElementById("btn_deco");
     // eldeco.addEventListener("click", decobtn);
 
@@ -12,7 +15,7 @@ const header = () => {
     elco.addEventListener("click", cobtn);
 
     var elde = document.getElementById("btn_de");
-    elco.addEventListener("click", debtn);
+    elde.addEventListener("click", debtn);
 
     function homebtn() {
         document.location.href = "/HomePage"
@@ -21,7 +24,9 @@ const header = () => {
     function profilbtn() {
         document.location.href = "/Profil"
     }
-
+    function insbtn() {
+        document.location.href = "/Inscription"
+    }
     // function decobtn() {
     //     sessionStorage.clear();
     //     document.location.href = "/"
